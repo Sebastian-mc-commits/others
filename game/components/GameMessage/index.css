@@ -1,0 +1,41 @@
+section.gameMessage {
+  background-color: rgb(31, 30, 30);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-100%, -50%);
+  height: 10rem;
+  z-index: 10;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* animation: displayAn 0.4s 2 alternate;
+  animation-delay: 1s; */
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+section.gameMessage .cube {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
+
+section.forward {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+@keyframes displayAn {
+  from {
+    transform: translate(50%, -50%);
+  }
+  
+  to {
+    transform: translate(-50%, -50%);
+  }
+}

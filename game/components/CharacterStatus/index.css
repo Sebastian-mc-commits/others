@@ -1,0 +1,23 @@
+.playerStatus {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  min-width: 10%;
+  /* filter: blur(1px); */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2%;
+  line-height: 3rem;
+  z-index: 10;
+}
+
+.status-power-up {
+  border-top: 1px black solid;
+  opacity: 1;
+  padding: 0.5rem;
+}
+
+.status-power-up span {
+  /* letter-spacing: 1rem; */
+  font-size: 2rem;
+}
